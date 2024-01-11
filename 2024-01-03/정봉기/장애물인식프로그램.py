@@ -1,6 +1,7 @@
 import sys
 
 # DFS 함수: 연결된 장애물 블록의 크기를 찾음
+# 블락넘버 -> 블락사이즈를 len으로 만들어서 출력하면됨
 def find_blocks(matrix, visited, row, col, block_number):
     # 경계를 벗어나거나, 이미 방문한 곳, 또는 장애물이 없는 경우에는 0을 반환
     if row < 0 or col < 0 or row >= len(matrix) or col >= len(matrix[0]) or matrix[row][col] == 0 or visited[row][col]:
