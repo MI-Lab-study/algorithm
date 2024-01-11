@@ -7,3 +7,5 @@ import sys
 m,n,k = map(int,input().split())
 listsecret = [list(map(int, input().strip()))] 
 listuser = [list(map(int, input().strip()))]
+
+print("secret" if listsecret in listuser else "normal")
