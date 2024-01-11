@@ -1,7 +1,7 @@
-def sums(x):
-    N = [int(i) for i in x]
+#def sums(x):
+#    N = [int(i) for i in x]
 
-    return sum(N)
+#    return sum(N)
 
 
 num_dict = {"0": 0b1110111, "1": 0b0000011, "2": 0b0111110, "3": 0b0011111, "4": 0b1001011, "5": 0b1011101, "6": 0b1111101, "7": 0b1010011, "8": 0b1111111, "9": 0b1011111}
@@ -27,10 +27,10 @@ for _ in range(num_test_case):
         s = num_dict[start[-i]]
         e = num_dict[end[-i]]
 
-        k += sums(bin(s ^ e)[2:])        # xor  '0b~'
+        k += bin(s ^ e)[2:].count('1')        # xor  '0b~'
 
     if M != m:
         for x in start[:-m]:
-            k += sums(bin(num_dict[x])[2:])    # 이 경우 앞의 0들이 생략될 수 있는데 어차피 1의 개수를 세는거라 상관은 없음
+            k += bin(num_dict[x])[2:].count('1')    # 이 경우 앞의 0들이 생략될 수 있는데 어차피 1의 개수를 세는거라 상관은 없음
 
     print(k)
