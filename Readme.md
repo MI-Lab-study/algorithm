@@ -23,3 +23,17 @@
 |정봉기|[이모티콘 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)|
 
 </details>
+
+</details>
+
+<details>
+<summary>2024-01-18</summary>
+
+|이름|문제|
+|:---:|:---:|
+|박주용|[도넛과막대그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)|
+|송지훈|[가장많이받은선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)|
+|허건혁|[주사위고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)|
+|정봉기|[산모양타일링](https://school.programmers.co.kr/learn/courses/30/lessons/258705)|
+
+</details>
