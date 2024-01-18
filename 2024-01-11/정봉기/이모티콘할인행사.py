@@ -7,7 +7,6 @@ def solution(users, emoticons):
 
 #   이모티콘 개별 할인율의 모든 조합 구하기
     discount_cases = list(product(discount_rates, repeat=len(emoticons)))
-    print(discount_cases)
     for discount_case in discount_cases:
         members = 0
         income = 0

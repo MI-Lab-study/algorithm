@@ -11,5 +11,5 @@ def solution(cap, n, deliveries, pickups):
             dcap -= deliveries[i]
             pcap -= pickups[i]
             answer += ((i + 1) * tmp * 2)
-
     return answer
+
