@@ -37,3 +37,15 @@
 |정봉기|[산모양타일링](https://school.programmers.co.kr/learn/courses/30/lessons/258705)|
 
 </details>
+
+<details>
+<summary>2024-01-25</summary>
+
+|이름|문제|
+|:---:|:---:|
+|박주용|[좌석관리](https://softeer.ai/practice/6267)|
+|송지훈|[마이크로서버](https://softeer.ai/practice/6264)|
+|허건혁|[로드밸런서트래픽예측](https://softeer.ai/practice/6263)|
+|정봉기|[이미지프로세싱](https://softeer.ai/practice/6265)|
+
+</details>
