@@ -61,3 +61,14 @@
 |정봉기|[파괴되지않은건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)|
 
 </details>
+
+<details>
+<summary>2024-02-22</summary>
+
+- stack, que, bfs, dfs 스터디
+
+- [게임맵최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+- [퍼즐조각채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
+
+
+</details>
